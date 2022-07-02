@@ -1,0 +1,26 @@
+.cell {
+	height: 6rem;
+	width: 6rem;
+	color: #fff;
+	text-shadow: 1px 1px 5px #fff;
+	cursor: pointer;
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right {
+	border-right: 4px solid #fff;
+}
+
+.bottom {
+	border-bottom: 4px solid #fff;
+}
+
+@media (max-width: 640px) {
+	.cell {
+		height: 4rem;
+		width: 4rem;
+	}
+}

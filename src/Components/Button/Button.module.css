@@ -1,0 +1,29 @@
+.btn {
+	color: white;
+	box-shadow: 1px 1px 5px #fff;
+	border: none;
+	border-radius: 12px;
+	height: 60px;
+	width: 180px;
+	background-color: #000;
+	margin: 10px;
+	text-shadow: 1px 1px 3px #fff;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 1.2rem;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.btn.black-btn {
+	background-color: white;
+	color: #000;
+}
+
+.btn.black-btn:hover {
+	background-color: #000;
+	color: #fff;
+}

@@ -1,0 +1,14 @@
+.row {
+	display: flex;
+}
+
+.display {
+	color: #fff;
+	text-align: center;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
